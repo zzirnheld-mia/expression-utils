@@ -41,7 +41,7 @@ Console.Write(isEvenExpression.StructuralIdentical(isUnevenExpression, ignoreCon
 ```csharp
 Expression<Func<int, bool>> isEvenExpression = x => x % 2 == 0;
 
-var isEvenDelegate = CachedExpressionCompiler.Instance.CachedCompileLambda(isEvenExpression);
+var isEvenDelegate = CachedExpressionCompiler.Instance.CachedCompileExpression(isEvenExpression);
 
 Console.Write(isEvenDelegate(5)); // false
 ```
