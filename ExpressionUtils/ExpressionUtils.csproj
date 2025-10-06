@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>MiaPlaza.ExpressionUtils</RootNamespace>
-    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
-    <LangVersion>8</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12</LangVersion>
     <AssemblyTitle>ExpressionUtils</AssemblyTitle>
     <Company>MiaPlaza</Company>
     <Product>MiaPlaza.ExpressionUtils.Properties</Product>
     <Description>Efficient Processing, Compilation, and Execution of Expression Trees at Runtime</Description>
     <Copyright>Copyright ©2017-2019 Miaplaza Inc.</Copyright>
-    <Version>1.3.0</Version>
-    <AssemblyVersion>1.3.0</AssemblyVersion>
-    <FileVersion>1.3.0</FileVersion>
+    <Version>1.4.0</Version>
+    <AssemblyVersion>1.4.0</AssemblyVersion>
+    <FileVersion>1.4.0</FileVersion>
     <ErrorReport>none</ErrorReport>
     <Authors>Miaplaza Inc.</Authors>
     <RepositoryUrl>https://github.com/Miaplaza/expression-utils</RepositoryUrl>
